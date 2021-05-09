@@ -1,5 +1,4 @@
 class Pokemon:
-    # To create a pokemon, give it a name, type, and level. Its max health is determined by its level. Its starting health is its max health and it is not knocked out when it starts.
     def __init__(self, name, type, level = 5):
         self.name = name
         self.level = level
